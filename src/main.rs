@@ -2,7 +2,7 @@ use std::str;
 use std::process::Command;
 use chrono::prelude::*;
 use openssl::rsa::Rsa;
-use openssl::pkey::PKey;
+use openssl::pkey::{PKey};
 
 fn main() {
     let output = Command::new("sh")
